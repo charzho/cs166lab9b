@@ -1,5 +1,5 @@
 #! /bin/bash
-export DB_NAME=$USER"_DB"
+export DB_NAME=mydb
 echo "creating db named ... "$DB_NAME
 createdb -h localhost -p $PGPORT mydb
 pg_ctl status
